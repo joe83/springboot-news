@@ -12,4 +12,9 @@
     id, employee_id, bill_money, bill_time, bill_record
   </sql>
 
+  <select id="getUserBills" parameterType="java.lang.Long" resultMap="BaseResultMap">
+      SELECT id, employee_id, bill_money, bill_time, bill_record FROM bill where employee_id = #{userId}
+  </select>
+
+
 </mapper>
