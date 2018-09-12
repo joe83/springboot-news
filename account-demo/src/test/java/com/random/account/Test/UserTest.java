@@ -1,9 +1,7 @@
 package com.random.account.Test;
 
 import com.random.account.domain.Employee;
-import com.random.account.service.UserService;
-import com.random.account.utils.TextUtils;
-import com.random.account.utils.UserContext;
+import com.random.account.service.EmployeeService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class UserTest {
 
     @Autowired
-    private UserService userService;
+    private EmployeeService employeeService;
 
 
     /**
@@ -24,12 +22,12 @@ public class UserTest {
     @Test
     public void registerUserServceTest() {
         Employee employee = new Employee();
-        employee.setUsername("admin1");
-        employee.setPassword("Love1314.");
-        Boolean b = userService.getUserByUsername(employee.getUsername());
+        employee.setUsername("admin2");
+        employee.setPassword("66666");
+        Boolean b = employeeService.getUserByUsername(employee.getUsername());
         System.out.println(b);
         if (b) {
-            int result = userService.registerUser(employee);
+            int result = employeeService.registerUser(employee);
             System.out.println(result);
         }
     }
@@ -41,8 +39,8 @@ public class UserTest {
     public void checkLoginServceTest() {
         Employee employee = new Employee();
         employee.setUsername("admin2");
-        employee.setPassword("Love1314.");
-        int result = userService.checkLogin(employee);
+        employee.setPassword("66666");
+        int result = employeeService.checkLogin(employee);
         System.out.println(result);
     }
 

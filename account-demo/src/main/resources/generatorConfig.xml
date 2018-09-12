@@ -36,8 +36,25 @@
         </javaClientGenerator>
 
         <!--table是指定每个表的生成策略-->
-        <table tableName="bill" domainObjectName="Bill"></table>
-        <table tableName="employee" domainObjectName="Employee"></table>
-
+        <table schema="general" tableName="bill" domainObjectName="Bill"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" >
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table schema="general" tableName="employee" domainObjectName="Employee"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" >
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table schema="general" tableName="integral_subsidiary" domainObjectName="IntegralSubsidiary"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" >
+            <property name="useActualColumnNames" value="true"/>
+        </table>
+        <table schema="general" tableName="integral_type" domainObjectName="IntegralType"
+               enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false" >
+            <property name="useActualColumnNames" value="true"/>
+        </table>
     </context>
 </generatorConfiguration>

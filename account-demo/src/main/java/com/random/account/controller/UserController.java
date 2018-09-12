@@ -1,7 +1,7 @@
 package com.random.account.controller;
 
 import com.random.account.domain.Employee;
-import com.random.account.service.UserService;
+import com.random.account.service.EmployeeService;
 import com.random.account.utils.TextUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,7 +20,7 @@ import java.util.Map;
 public class UserController {
 
     @Autowired
-    private UserService userService;
+    private EmployeeService employeeService;
 
     /**
      * 通过用户名查询用户是否存在
@@ -33,7 +33,7 @@ public class UserController {
         Map<String, Object> map = new HashMap<String, Object>(16);
         if (!TextUtils.isEmpty(username)) {
             try {
-                Boolean result = userService.getUserByUsername(username);
+                Boolean result = employeeService.getUserByUsername(username);
                 if (result == true) {
                     map.put("result", 0);
                     map.put("message", "查询成功,不存在该用户,可以注册");
@@ -63,7 +63,7 @@ public class UserController {
     public Map<String, Object> registerUser(Employee employee) {
         Map<String, Object> map = new HashMap<String, Object>(16);
         try {
-            int result = userService.registerUser(employee);
+            int result = employeeService.registerUser(employee);
             if (result == 0) {
                 map.put("result", 0);
                 map.put("message", "注册成功");
@@ -90,7 +90,7 @@ public class UserController {
     public Map<String, Object> checkLogin(Employee employee) {
         Map<String, Object> map = new HashMap<String, Object>(16);
         try {
-            int result = userService.checkLogin(employee);
+            int result = employeeService.checkLogin(employee);
             if (result == 0) {
                 map.put("result", 0);
                 map.put("message", "登录成功");

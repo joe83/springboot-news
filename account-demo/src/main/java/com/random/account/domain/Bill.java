@@ -6,13 +6,13 @@ import java.util.Date;
 public class Bill {
     private Long id;
 
-    private Long employeeId;
+    private Long employee_id;
 
-    private BigDecimal billMoney;
+    private BigDecimal bill_money;
 
-    private Date billTime;
+    private Date bill_time;
 
-    private String billRecord;
+    private String bill_record;
 
     public Long getId() {
         return id;
@@ -22,46 +22,46 @@ public class Bill {
         this.id = id;
     }
 
-    public Long getEmployeeId() {
-        return employeeId;
+    public Long getEmployee_id() {
+        return employee_id;
     }
 
-    public void setEmployeeId(Long employeeId) {
-        this.employeeId = employeeId;
+    public void setEmployee_id(Long employee_id) {
+        this.employee_id = employee_id;
     }
 
-    public BigDecimal getBillMoney() {
-        return billMoney;
+    public BigDecimal getBill_money() {
+        return bill_money;
     }
 
-    public void setBillMoney(BigDecimal billMoney) {
-        this.billMoney = billMoney;
+    public void setBill_money(BigDecimal bill_money) {
+        this.bill_money = bill_money;
     }
 
-    public Date getBillTime() {
-        return billTime;
+    public Date getBill_time() {
+        return bill_time;
     }
 
-    public void setBillTime(Date billTime) {
-        this.billTime = billTime;
+    public void setBill_time(Date bill_time) {
+        this.bill_time = bill_time;
     }
 
-    public String getBillRecord() {
-        return billRecord;
+    public String getBill_record() {
+        return bill_record;
     }
 
-    public void setBillRecord(String billRecord) {
-        this.billRecord = billRecord == null ? null : billRecord.trim();
+    public void setBill_record(String bill_record) {
+        this.bill_record = bill_record == null ? null : bill_record.trim();
     }
 
     @Override
     public String toString() {
         return "Bill{" +
                 "id=" + id +
-                ", employeeId=" + employeeId +
-                ", billMoney=" + billMoney +
-                ", billTime=" + billTime +
-                ", billRecord='" + billRecord + '\'' +
+                ", employee_id=" + employee_id +
+                ", bill_money=" + bill_money +
+                ", bill_time=" + bill_time +
+                ", bill_record='" + bill_record + '\'' +
                 '}';
     }
 }

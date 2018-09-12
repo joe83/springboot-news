@@ -11,7 +11,7 @@ public class Employee {
 
     private String phone;
 
-    private String qqNbr;
+    private String qq_nbr;
 
     private String wechat;
 
@@ -19,13 +19,9 @@ public class Employee {
 
     private String salt;
 
-    public String getSalt() {
-        return salt;
-    }
+    private String role;
 
-    public void setSalt(String salt) {
-        this.salt = salt;
-    }
+    private String last_login_time;
 
     public Long getId() {
         return id;
@@ -67,12 +63,12 @@ public class Employee {
         this.phone = phone == null ? null : phone.trim();
     }
 
-    public String getQqNbr() {
-        return qqNbr;
+    public String getQq_nbr() {
+        return qq_nbr;
     }
 
-    public void setQqNbr(String qqNbr) {
-        this.qqNbr = qqNbr == null ? null : qqNbr.trim();
+    public void setQq_nbr(String qq_nbr) {
+        this.qq_nbr = qq_nbr == null ? null : qq_nbr.trim();
     }
 
     public String getWechat() {
@@ -91,6 +87,30 @@ public class Employee {
         this.email = email == null ? null : email.trim();
     }
 
+    public String getSalt() {
+        return salt;
+    }
+
+    public void setSalt(String salt) {
+        this.salt = salt == null ? null : salt.trim();
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role == null ? null : role.trim();
+    }
+
+    public String getLast_login_time() {
+        return last_login_time;
+    }
+
+    public void setLast_login_time(String last_login_time) {
+        this.last_login_time = last_login_time == null ? null : last_login_time.trim();
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -99,10 +119,12 @@ public class Employee {
                 ", password='" + password + '\'' +
                 ", nickname='" + nickname + '\'' +
                 ", phone='" + phone + '\'' +
-                ", qqNbr='" + qqNbr + '\'' +
+                ", qq_nbr='" + qq_nbr + '\'' +
                 ", wechat='" + wechat + '\'' +
                 ", email='" + email + '\'' +
                 ", salt='" + salt + '\'' +
+                ", role='" + role + '\'' +
+                ", last_login_time='" + last_login_time + '\'' +
                 '}';
     }
 }

@@ -1,12 +1,9 @@
 package com.random.account.mapper;
 
 import com.random.account.domain.Employee;
-
 import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
 
 public interface EmployeeMapper {
-
     /**
      * 通过用户名查询用户是否被注册
      *
@@ -38,5 +35,4 @@ public interface EmployeeMapper {
      * @return
      */
     String getSaltByUsername(@Param("username") String username);
-
 }

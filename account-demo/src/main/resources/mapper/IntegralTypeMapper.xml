@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.random.account.mapper.IntegralTypeMapper" >
+  <resultMap id="BaseResultMap" type="com.random.account.domain.IntegralType" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="type_name" property="type_name" jdbcType="VARCHAR" />
+    <result column="explain" property="explain" jdbcType="VARCHAR" />
+    <result column="grade" property="grade" jdbcType="INTEGER" />
+    <result column="day_count" property="day_count" jdbcType="INTEGER" />
+    <result column="inputTime" property="inputTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, type_name, explain, grade, day_count, inputTime
+  </sql>
+
+</mapper>

@@ -17,12 +17,29 @@ public class BillServiceImpl implements BillService {
 
     @Override
     public List<Bill> getUserBills(Long userId) {
-        int result = 0;
         List<Bill> bills = billMapper.getUserBills(userId);
-        if(bills == null){
+        if(bills == null ||  bills.size() < 0){
             //  没有数据
             return new ArrayList<>();
         }
         return bills;
+    }
+
+    @Override
+    public int insertBill(Bill bill) {
+        int result = 0;
+        try{
+            int insertResult = billMapper.insertBill(bill);
+            if(insertResult == 0){
+                result = 1;
+            }else{
+                return result;
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+            result = 2;
+            return result;
+        }
+        return result;
     }
 }

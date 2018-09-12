@@ -2,7 +2,7 @@ package com.random.account.service;
 
 import com.random.account.domain.Employee;
 
-public interface UserService {
+public interface EmployeeService {
 
     /**
      * 通过用户名查找用户是否存在

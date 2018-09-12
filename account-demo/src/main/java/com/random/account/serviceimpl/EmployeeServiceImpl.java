@@ -2,14 +2,14 @@ package com.random.account.serviceimpl;
 
 import com.random.account.domain.Employee;
 import com.random.account.mapper.EmployeeMapper;
-import com.random.account.service.UserService;
+import com.random.account.service.EmployeeService;
 import com.random.account.utils.TextUtils;
 import com.random.account.utils.UserContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserServiceImpl implements UserService {
+public class EmployeeServiceImpl implements EmployeeService {
 
     @Autowired
     private EmployeeMapper employeeMapper;
