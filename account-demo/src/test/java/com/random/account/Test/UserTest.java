@@ -1,4 +1,4 @@
-package com.random.account.Test;
+package com.random.account.test;
 
 import com.random.account.domain.Employee;
 import com.random.account.service.EmployeeService;

@@ -18,7 +18,7 @@ public class BillServiceImpl implements BillService {
     @Override
     public List<Bill> getUserBills(Long userId) {
         List<Bill> bills = billMapper.getUserBills(userId);
-        if(bills == null ||  bills.size() < 0){
+        if(bills == null ||  bills.size() <= 0){
             //  没有数据
             return new ArrayList<>();
         }

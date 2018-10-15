@@ -62,7 +62,7 @@ public class BillController {
         Map<String, Object> map = new HashMap<>();
         Employee employee = UserContext.getUser();
         if (employee != null) {
-            bill.setEmployeeId(employee.getId());
+            bill.setEmployee_id(employee.getId());
         }
         int result = 0;
         try {
