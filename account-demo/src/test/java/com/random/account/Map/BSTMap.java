@@ -7,7 +7,7 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
         private V value;
         private Node left, right;
 
-        publ    ic Node(K key, V value) {
+        public Node(K key, V value) {
             this.key = key;
             this.value = value;
             left = null;
