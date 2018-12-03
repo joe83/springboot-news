@@ -7,13 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="news-server-commons" />
-        <module name="news-server-dependencies" />
+        <module name="news-server-database" />
+        <module name="news-server-domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gaming-server-dependencies" target="1.8" />
       <module name="news-server-commons" target="1.8" />
+      <module name="news-server-database" target="1.8" />
       <module name="news-server-dependencies" target="1.8" />
+      <module name="news-server-domain" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -8,7 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/news-server-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/news-server-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/news-server-database/pom.xml" />
+        <option value="$PROJECT_DIR$/news-server-domain/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
