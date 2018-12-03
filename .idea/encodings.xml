@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/news-server-database" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/news-server-dependencies" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/news-server-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news-server-service-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/news-server-service-admin-api" charset="UTF-8" />
   </component>
 </project>

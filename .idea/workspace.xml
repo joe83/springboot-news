@@ -4,16 +4,26 @@
     <list default="true" id="e2eac445-4772-47d5-b313-c4c39746db56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news-server-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/news-server-dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-server-database/src/main/java/com/yzc/news/server/database/domain/Dict.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-server-database/src/main/java/com/yzc/news/server/database/mapper/DictMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-server-database/src/main/resources/mapper/DictMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-server-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/news-server-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/domain/Dict.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/domain/Dict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-server-domain/src/main/resources/mapper/DictMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/news-server-domain/src/main/resources/mapper/DictMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news-server-domain/src/test/java/com/yzc/news/server/domain/NewsServerDomainApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/news-server-domain/src/test/java/com/yzc/news/server/domain/NewsServerDomainApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/gaming-server-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/news-server-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/news-server-commons/target/" />
     <ignored path="$PROJECT_DIR$/news-server-database/target/" />
     <ignored path="$PROJECT_DIR$/news-server-domain/target/" />
+    <ignored path="$PROJECT_DIR$/news-server-service-admin-api/target/" />
+    <ignored path="$PROJECT_DIR$/news-server-service-admin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,33 +85,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitattributes" value="1" />
-          <entry key="java" value="15" />
+          <entry key="class" value="1" />
+          <entry key="gitattributes" value="2" />
+          <entry key="java" value="35" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="12" />
+          <entry key="xml" value="31" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="35" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="31" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8" />
-          <entry key="xml" value="29" />
+          <entry key="java" value="115" />
+          <entry key="xml" value="136" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8" />
-          <entry key="XML" value="29" />
+          <entry key="JAVA" value="115" />
+          <entry key="XML" value="136" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
@@ -110,10 +122,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/news-server-service-admin/src/test/java/com/yzc/news/server/service/admin/NewsServerServiceAdminApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="228">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,11 +158,25 @@
         <option value="$PROJECT_DIR$/news-server-database/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/news-server-database/pom.xml" />
         <option value="$PROJECT_DIR$/news-server-dependencies/pom.xml" />
-        <option value="$PROJECT_DIR$/news-server-domain/pom.xml" />
-        <option value="$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/mapper/DictMapper.java" />
         <option value="$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/domain/Dict.java" />
-        <option value="$PROJECT_DIR$/news-server-domain/src/main/resources/mapper/DictMapper.xml" />
         <option value="$PROJECT_DIR$/news-server-domain/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/news-server-service-admin-api/pom.xml" />
+        <option value="$PROJECT_DIR$/news-server-service-admin/src/main/java/com/yzc/news/server/service/admin/NewsServerServiceAdminApplication.java" />
+        <option value="$PROJECT_DIR$/news-server-domain/src/test/java/com/yzc/news/server/domain/NewsServerDomainApplicationTests.java" />
+        <option value="$PROJECT_DIR$/news-server-database/src/main/resources/mapper/ArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/domain/Article.java" />
+        <option value="$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/mapper/ArticleMapper.java" />
+        <option value="$PROJECT_DIR$/news-server-domain/src/main/resources/mapper/ArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/news-server-domain/src/main/resources/mapper/ChannelMapper.xml" />
+        <option value="$PROJECT_DIR$/news-server-domain/src/main/resources/mapper/DictMapper.xml" />
+        <option value="$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/mapper/DictMapper.java" />
+        <option value="$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/mapper/ChannelMapper.java" />
+        <option value="$PROJECT_DIR$/news-server-service-admin/src/main/java/com/yzc/news/server/service/admin/mapper/ArticleMapper.java" />
+        <option value="$PROJECT_DIR$/news-server-service-admin/src/main/java/com/yzc/news/server/service/admin/mapper/DictMapper.java" />
+        <option value="$PROJECT_DIR$/news-server-service-admin/src/main/java/com/yzc/news/server/service/admin/mapper/ChannelMapper.java" />
+        <option value="$PROJECT_DIR$/news-server-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/news-server-service-admin/src/test/java/com/yzc/news/server/service/admin/NewsServerServiceAdminApplicationTests.java" />
+        <option value="$PROJECT_DIR$/news-server-service-admin/pom.xml" />
       </list>
     </option>
   </component>
@@ -170,32 +199,22 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="news-server-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="news-server-domain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="news-server-database" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="news-server-database" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="news-server-domain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="news-server-database" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="544" />
-    <option name="y" value="16" />
-    <option name="width" value="1263" />
-    <option name="height" value="1043" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="184" />
+    <option name="y" value="26" />
+    <option name="width" value="1619" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -216,81 +235,37 @@
             <path>
               <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-database" type="462c0819:PsiDirectoryNode" />
+              <item name="news-server-service-admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-database" type="462c0819:PsiDirectoryNode" />
+              <item name="news-server-service-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-database" type="462c0819:PsiDirectoryNode" />
+              <item name="news-server-service-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-database" type="462c0819:PsiDirectoryNode" />
+              <item name="news-server-service-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="news-server-service-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-news" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-news" type="462c0819:PsiDirectoryNode" />
-              <item name="news-server-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,9 +277,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543822652638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543829219123" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gaming-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -319,11 +294,11 @@
       <recent name="com.yzc.news.server.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Develop\DevWorkSpace\MyGitSpace\springboot-news\news-server-domain\src\main\resources" />
+      <recent name="E:\Develop\DevWorkSpace\MyGitSpace\springboot-news\news-server-service-admin\src\main\java\com\yzc\news\server\service\admin\mapper" />
       <recent name="E:\Develop\DevWorkSpace\MyGitSpace\springboot-news\news-server-domain\src\main\resources\mapper" />
-      <recent name="E:\Develop\DevWorkSpace\MyGitSpace\springboot-news\news-server-database" />
-      <recent name="E:\Develop\DevWorkSpace\GItSpace\springboot-blogs\news-server-commons" />
-      <recent name="E:\Develop\DevWorkSpace\GItSpace\springboot-blogs\news-server-dependencies" />
+      <recent name="E:\Develop\DevWorkSpace\MyGitSpace\springboot-news\news-server-domain\src\main\java\com\yzc\news\server\mapper" />
+      <recent name="E:\Develop\DevWorkSpace\MyGitSpace\springboot-news\news-server-domain\src\main\java\com\yzc\news\server\domain" />
+      <recent name="E:\Develop\DevWorkSpace\MyGitSpace\springboot-news\news-server-domain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -338,7 +313,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GamingServerDependenciesApplication">
+  <component name="RunManager" selected="JUnit.NewsServerServiceAdminApplicationTests">
+    <configuration name="NewsServerServiceAdminApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="news-server-service-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzc.news.server.service.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yzc.news.server.service.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.yzc.news.server.service.admin.NewsServerServiceAdminApplicationTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsServerServiceAdminApplicationTests.testChannelSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="news-server-service-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzc.news.server.service.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yzc.news.server.service.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.yzc.news.server.service.admin.NewsServerServiceAdminApplicationTests" />
+      <option name="METHOD_NAME" value="testChannelSelectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GamingServerDependenciesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gaming-server-dependencies" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yzc.gaming.server.dependencies.GamingServerDependenciesApplication" />
@@ -374,13 +379,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewsServerServiceAdminApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="news-server-service-admin-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yzc.news.server.admin.api.NewsServerServiceAdminApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsServerServiceAdminApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="news-server-service-admin-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yzc.news.server.api.NewsServerServiceAdminApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsServerServiceAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="news-server-service-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yzc.news.server.service.admin.NewsServerServiceAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.GamingServerDependenciesApplication" />
       <item itemvalue="Spring Boot.NewsServerDependenciesApplication" />
       <item itemvalue="Spring Boot.NewsServerCommonsApplication" />
       <item itemvalue="Spring Boot.NewsServerDatabaseApplication" />
       <item itemvalue="Spring Boot.NewsServerDomainApplication" />
+      <item itemvalue="Spring Boot.NewsServerServiceAdminApiApplication" />
+      <item itemvalue="Spring Boot.NewsServerServiceAdminApiApplication (1)" />
+      <item itemvalue="Spring Boot.NewsServerServiceAdminApplication" />
+      <item itemvalue="JUnit.NewsServerServiceAdminApplicationTests.testChannelSelectAll" />
+      <item itemvalue="JUnit.NewsServerServiceAdminApplicationTests" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NewsServerServiceAdminApplicationTests" />
+        <item itemvalue="JUnit.NewsServerServiceAdminApplicationTests.testChannelSelectAll" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -393,18 +430,38 @@
       <option name="presentableId" value="Default" />
       <updated>1543585484649</updated>
       <workItem from="1543585486291" duration="1725000" />
-      <workItem from="1543804645841" duration="5764000" />
+      <workItem from="1543804645841" duration="12271000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="NewsServerServiceAdminApplicationTests_testChannelSelectAll - 2018.12.03 at 16h 53m 53s.xml">
+      <configuration name="NewsServerServiceAdminApplicationTests.testChannelSelectAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsServerServiceAdminApplicationTests_testChannelSelectAll - 2018.12.03 at 16h 58m 15s.xml">
+      <configuration name="NewsServerServiceAdminApplicationTests.testChannelSelectAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsServerServiceAdminApplicationTests_testChannelSelectAll - 2018.12.03 at 17h 05m 40s.xml">
+      <configuration name="NewsServerServiceAdminApplicationTests.testChannelSelectAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsServerServiceAdminApplicationTests_testChannelSelectAll - 2018.12.03 at 17h 14m 16s.xml">
+      <configuration name="NewsServerServiceAdminApplicationTests.testChannelSelectAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsServerServiceAdminApplicationTests_testChannelSelectAll - 2018.12.03 at 17h 19m 10s.xml">
+      <configuration name="NewsServerServiceAdminApplicationTests.testChannelSelectAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsServerServiceAdminApplicationTests_testChannelSelectAll - 2018.12.03 at 17h 20m 53s.xml">
+      <configuration name="NewsServerServiceAdminApplicationTests.testChannelSelectAll" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7489000" />
+    <option name="totallyTimeSpent" value="13996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1065" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -412,9 +469,10 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32188842" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7296137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +480,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.41201717" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33154505" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -433,7 +491,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.32917705" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.22974414" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.24520256" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,6 +526,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/news-server-service-admin/src/test/java/com/yzc/news/server/service/admin/NewsServerServiceAdminApplicationTests.java</url>
+          <line>20</line>
+          <properties class="com.yzc.news.server.service.admin.NewsServerServiceAdminApplicationTests" method="testChannelSelectAll">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/account-demo/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -494,13 +566,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news-server-database/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news-server-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news-server-database/src/main/java/com/yzc/news/server/database/NewsServerDatabaseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -539,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news-server-database/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news-server-database/src/main/java/com/yzc/news/server/database/domain/EventsTransactionsSummaryByAccountByEventName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -569,16 +627,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news-server-database/src/main/resources/mapper/DictMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/news-server-database/src/main/java/com/yzc/news/server/utils/MyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/news-server-database/src/main/java/com/yzc/news/server/database/domain/Dict.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -608,31 +656,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news-server-domain/pom.xml">
+    <entry file="file://$PROJECT_DIR$/news-server-domain/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="266">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/utils/MyMapper.java">
+    <entry file="file://$PROJECT_DIR$/news-server-database/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="-694">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/domain/Dict.java">
+    <entry file="file://$PROJECT_DIR$/news-server-commons/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4040">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="-561">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-database/src/main/resources/mapper/ArticleDescMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-database/src/main/resources/mapper/AccountsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/test/java/com/yzc/news/server/domain/NewsServerDomainApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-database/src/main/resources/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-database/src/main/java/com/yzc/news/server/utils/MyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/mapper/DictMapper.java">
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/resources/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/resources/mapper/ChannelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/resources/mapper/DictMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/domain/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/domain/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/mapper/ArticleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -642,17 +755,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/resources/mapper/DictMapper.xml">
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/mapper/DictMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="58" lean-forward="true" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/domain/Dict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="19">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-database/src/main/java/com/yzc/news/server/database/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-service-admin/src/main/java/com/yzc/news/server/service/admin/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-service-admin/src/main/java/com/yzc/news/server/service/admin/mapper/ChannelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-service-admin/src/main/java/com/yzc/news/server/service/admin/mapper/DictMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/utils/MyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.9.RELEASE/spring-test-5.0.9.RELEASE.jar!/org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-domain/src/main/java/com/yzc/news/server/mapper/ChannelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-service-admin/src/main/java/com/yzc/news/server/service/admin/NewsServerServiceAdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-service-admin-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="67" lean-forward="true" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-service-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news-server-service-admin/src/test/java/com/yzc/news/server/service/admin/NewsServerServiceAdminApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

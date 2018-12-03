@@ -4,6 +4,9 @@ import java.util.Date;
 import javax.persistence.*;
 
 public class Dict {
+    /**
+     * 主键
+     */
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -15,7 +18,7 @@ public class Dict {
     /**
      * 标签名
      */
-    private String label;
+    private String lable;
 
     /**
      * 类型
@@ -33,44 +36,39 @@ public class Dict {
     private Integer sort;
 
     /**
-     * 父级标签
+     * 父级ID
      */
-    private Long pid;
+    @Column(name = "parent_id")
+    private Long parentId;
 
     /**
-     * 是否为父级标签
-     */
-    @Column(name = "is_parent")
-    private String isParent;
-
-    /**
-     * 创建者
+     * 创建人
      */
     @Column(name = "create_by")
-    private Long createBy;
+    private String createBy;
 
     /**
-     * 创建时间
+     * 创建日期
      */
     @Column(name = "create_date")
     private Date createDate;
 
     /**
-     * 更新者
+     * 修改人
      */
     @Column(name = "update_by")
-    private Long updateBy;
+    private String updateBy;
 
     /**
-     * 更新时间
+     * 修改时间
      */
     @Column(name = "update_date")
     private Date updateDate;
 
     /**
-     * 备注
+     * 备注信息
      */
-    private String remark;
+    private String remarks;
 
     /**
      * 删除标记
@@ -79,14 +77,18 @@ public class Dict {
     private String delFlag;
 
     /**
-     * @return id
+     * 获取主键
+     *
+     * @return id - 主键
      */
     public Long getId() {
         return id;
     }
 
     /**
-     * @param id
+     * 设置主键
+     *
+     * @param id 主键
      */
     public void setId(Long id) {
         this.id = id;
@@ -113,19 +115,19 @@ public class Dict {
     /**
      * 获取标签名
      *
-     * @return label - 标签名
+     * @return lable - 标签名
      */
-    public String getLabel() {
-        return label;
+    public String getLable() {
+        return lable;
     }
 
     /**
      * 设置标签名
      *
-     * @param label 标签名
+     * @param lable 标签名
      */
-    public void setLabel(String label) {
-        this.label = label;
+    public void setLable(String lable) {
+        this.lable = lable;
     }
 
     /**
@@ -183,129 +185,111 @@ public class Dict {
     }
 
     /**
-     * 获取父级标签
+     * 获取父级ID
      *
-     * @return pid - 父级标签
+     * @return parent_id - 父级ID
      */
-    public Long getPid() {
-        return pid;
+    public Long getParentId() {
+        return parentId;
     }
 
     /**
-     * 设置父级标签
+     * 设置父级ID
      *
-     * @param pid 父级标签
+     * @param parentId 父级ID
      */
-    public void setPid(Long pid) {
-        this.pid = pid;
+    public void setParentId(Long parentId) {
+        this.parentId = parentId;
     }
 
     /**
-     * 获取是否为父级标签
+     * 获取创建人
      *
-     * @return is_parent - 是否为父级标签
+     * @return create_by - 创建人
      */
-    public String getIsParent() {
-        return isParent;
-    }
-
-    /**
-     * 设置是否为父级标签
-     *
-     * @param isParent 是否为父级标签
-     */
-    public void setIsParent(String isParent) {
-        this.isParent = isParent;
-    }
-
-    /**
-     * 获取创建者
-     *
-     * @return create_by - 创建者
-     */
-    public Long getCreateBy() {
+    public String getCreateBy() {
         return createBy;
     }
 
     /**
-     * 设置创建者
+     * 设置创建人
      *
-     * @param createBy 创建者
+     * @param createBy 创建人
      */
-    public void setCreateBy(Long createBy) {
+    public void setCreateBy(String createBy) {
         this.createBy = createBy;
     }
 
     /**
-     * 获取创建时间
+     * 获取创建日期
      *
-     * @return create_date - 创建时间
+     * @return create_date - 创建日期
      */
     public Date getCreateDate() {
         return createDate;
     }
 
     /**
-     * 设置创建时间
+     * 设置创建日期
      *
-     * @param createDate 创建时间
+     * @param createDate 创建日期
      */
     public void setCreateDate(Date createDate) {
         this.createDate = createDate;
     }
 
     /**
-     * 获取更新者
+     * 获取修改人
      *
-     * @return update_by - 更新者
+     * @return update_by - 修改人
      */
-    public Long getUpdateBy() {
+    public String getUpdateBy() {
         return updateBy;
     }
 
     /**
-     * 设置更新者
+     * 设置修改人
      *
-     * @param updateBy 更新者
+     * @param updateBy 修改人
      */
-    public void setUpdateBy(Long updateBy) {
+    public void setUpdateBy(String updateBy) {
         this.updateBy = updateBy;
     }
 
     /**
-     * 获取更新时间
+     * 获取修改时间
      *
-     * @return update_date - 更新时间
+     * @return update_date - 修改时间
      */
     public Date getUpdateDate() {
         return updateDate;
     }
 
     /**
-     * 设置更新时间
+     * 设置修改时间
      *
-     * @param updateDate 更新时间
+     * @param updateDate 修改时间
      */
     public void setUpdateDate(Date updateDate) {
         this.updateDate = updateDate;
     }
 
     /**
-     * 获取备注
+     * 获取备注信息
      *
-     * @return remark - 备注
+     * @return remarks - 备注信息
      */
-    public String getRemark() {
-        return remark;
+    public String getRemarks() {
+        return remarks;
     }
 
     /**
-     * 设置备注
+     * 设置备注信息
      *
-     * @param remark 备注
+     * @param remarks 备注信息
      */
-    public void setRemark(String remark) {
-        this.remark = remark;
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
     }
 
     /**

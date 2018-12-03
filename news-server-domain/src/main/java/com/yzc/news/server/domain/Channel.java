@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import java.util.Date;
 
-public class Dict {
+public class Channel {
     /**
      * 主键
      */
@@ -13,35 +13,25 @@ public class Dict {
     private Long id;
 
     /**
-     * 数据值
+     * 频道名称
      */
-    private String value;
+    private String name;
 
     /**
-     * 标签名
+     * 父级频道
      */
-    private String lable;
+    private Long pid;
 
     /**
-     * 类型
+     * 是否父级频道
      */
-    private String type;
-
-    /**
-     * 描述
-     */
-    private String description;
+    @Column(name = "is_parent")
+    private String isParent;
 
     /**
      * 排序
      */
     private Integer sort;
-
-    /**
-     * 父级ID
-     */
-    @Column(name = "parent_id")
-    private Long parentId;
 
     /**
      * 创建人
@@ -50,19 +40,19 @@ public class Dict {
     private String createBy;
 
     /**
-     * 创建日期
+     * 创建时间
      */
     @Column(name = "create_date")
     private Date createDate;
 
     /**
-     * 修改人
+     * 更新人
      */
     @Column(name = "update_by")
     private String updateBy;
 
     /**
-     * 修改时间
+     * 更新时间
      */
     @Column(name = "update_date")
     private Date updateDate;
@@ -97,75 +87,57 @@ public class Dict {
     }
 
     /**
-     * 获取数据值
+     * 获取频道名称
      *
-     * @return value - 数据值
+     * @return name - 频道名称
      */
-    public String getValue() {
-        return value;
+    public String getName() {
+        return name;
     }
 
     /**
-     * 设置数据值
+     * 设置频道名称
      *
-     * @param value 数据值
+     * @param name 频道名称
      */
-    public void setValue(String value) {
-        this.value = value;
+    public void setName(String name) {
+        this.name = name;
     }
 
     /**
-     * 获取标签名
+     * 获取父级频道
      *
-     * @return lable - 标签名
+     * @return pid - 父级频道
      */
-    public String getLable() {
-        return lable;
+    public Long getPid() {
+        return pid;
     }
 
     /**
-     * 设置标签名
+     * 设置父级频道
      *
-     * @param lable 标签名
+     * @param pid 父级频道
      */
-    public void setLable(String lable) {
-        this.lable = lable;
+    public void setPid(Long pid) {
+        this.pid = pid;
     }
 
     /**
-     * 获取类型
+     * 获取是否父级频道
      *
-     * @return type - 类型
+     * @return is_parent - 是否父级频道
      */
-    public String getType() {
-        return type;
+    public String getIsParent() {
+        return isParent;
     }
 
     /**
-     * 设置类型
+     * 设置是否父级频道
      *
-     * @param type 类型
+     * @param isParent 是否父级频道
      */
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    /**
-     * 获取描述
-     *
-     * @return description - 描述
-     */
-    public String getDescription() {
-        return description;
-    }
-
-    /**
-     * 设置描述
-     *
-     * @param description 描述
-     */
-    public void setDescription(String description) {
-        this.description = description;
+    public void setIsParent(String isParent) {
+        this.isParent = isParent;
     }
 
     /**
@@ -187,24 +159,6 @@ public class Dict {
     }
 
     /**
-     * 获取父级ID
-     *
-     * @return parent_id - 父级ID
-     */
-    public Long getParentId() {
-        return parentId;
-    }
-
-    /**
-     * 设置父级ID
-     *
-     * @param parentId 父级ID
-     */
-    public void setParentId(Long parentId) {
-        this.parentId = parentId;
-    }
-
-    /**
      * 获取创建人
      *
      * @return create_by - 创建人
@@ -223,54 +177,54 @@ public class Dict {
     }
 
     /**
-     * 获取创建日期
+     * 获取创建时间
      *
-     * @return create_date - 创建日期
+     * @return create_date - 创建时间
      */
     public Date getCreateDate() {
         return createDate;
     }
 
     /**
-     * 设置创建日期
+     * 设置创建时间
      *
-     * @param createDate 创建日期
+     * @param createDate 创建时间
      */
     public void setCreateDate(Date createDate) {
         this.createDate = createDate;
     }
 
     /**
-     * 获取修改人
+     * 获取更新人
      *
-     * @return update_by - 修改人
+     * @return update_by - 更新人
      */
     public String getUpdateBy() {
         return updateBy;
     }
 
     /**
-     * 设置修改人
+     * 设置更新人
      *
-     * @param updateBy 修改人
+     * @param updateBy 更新人
      */
     public void setUpdateBy(String updateBy) {
         this.updateBy = updateBy;
     }
 
     /**
-     * 获取修改时间
+     * 获取更新时间
      *
-     * @return update_date - 修改时间
+     * @return update_date - 更新时间
      */
     public Date getUpdateDate() {
         return updateDate;
     }
 
     /**
-     * 设置修改时间
+     * 设置更新时间
      *
-     * @param updateDate 修改时间
+     * @param updateDate 更新时间
      */
     public void setUpdateDate(Date updateDate) {
         this.updateDate = updateDate;

@@ -9,6 +9,8 @@
         <module name="news-server-commons" />
         <module name="news-server-database" />
         <module name="news-server-domain" />
+        <module name="news-server-service-admin" />
+        <module name="news-server-service-admin-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +19,8 @@
       <module name="news-server-database" target="1.8" />
       <module name="news-server-dependencies" target="1.8" />
       <module name="news-server-domain" target="1.8" />
+      <module name="news-server-service-admin" target="1.8" />
+      <module name="news-server-service-admin-api" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
