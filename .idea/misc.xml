@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/news-server-domain/pom.xml" />
         <option value="$PROJECT_DIR$/news-server-service-admin-api/pom.xml" />
         <option value="$PROJECT_DIR$/news-server-service-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/news-server-web-admin/pom.xml" />
       </list>
     </option>
   </component>

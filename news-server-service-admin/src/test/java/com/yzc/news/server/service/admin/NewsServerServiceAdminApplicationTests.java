@@ -1,7 +1,7 @@
 package com.yzc.news.server.service.admin;
 
 import com.yzc.news.server.domain.Channel;
-import com.yzc.news.server.mapper.ChannelMapper;
+import com.yzc.news.server.service.admin.mapper.ChannelMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

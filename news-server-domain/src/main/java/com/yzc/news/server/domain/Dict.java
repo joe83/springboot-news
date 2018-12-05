@@ -3,9 +3,10 @@ package com.yzc.news.server.domain;
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import java.io.Serializable;
 import java.util.Date;
 
-public class Dict {
+public class Dict implements Serializable {
     /**
      * 主键
      */

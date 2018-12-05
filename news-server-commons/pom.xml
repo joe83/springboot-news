@@ -18,6 +18,10 @@
         <relativePath/>
     </parent>
 
+    <properties>
+        <tk-mybatis.version>3.4.4</tk-mybatis.version>
+    </properties>
+
     <dependencies>
         <!-- Apache Begin -->
         <dependency>
@@ -63,9 +67,8 @@
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper</artifactId>
         </dependency>
-        <!-- MyBatis Begin -->
+        <!-- MyBatis End -->
     </dependencies>
-
 
 
 </project>

@@ -11,6 +11,7 @@
         <module name="news-server-domain" />
         <module name="news-server-service-admin" />
         <module name="news-server-service-admin-api" />
+        <module name="news-server-web-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="news-server-domain" target="1.8" />
       <module name="news-server-service-admin" target="1.8" />
       <module name="news-server-service-admin-api" target="1.8" />
+      <module name="news-server-web-admin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

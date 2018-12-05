@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.1.RELEASE</version>
+        <version>1.5.10.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <dependencies>
@@ -47,6 +47,7 @@
         <java.version>1.8</java.version>
         <!-- 预定义依赖版本 -->
         <spring-boot-alibaba-druid.version>1.1.5</spring-boot-alibaba-druid.version>
+        <spring-boot-alibaba-dubbo.version>1.0.0-SNAPSHOT</spring-boot-alibaba-dubbo.version>
         <spring-boot-pagehelper.version>1.2.3</spring-boot-pagehelper.version>
         <spring-boot-tk-mybatis.version>1.1.5</spring-boot-tk-mybatis.version>
         <commons-lang3.version>3.3.2</commons-lang3.version>
@@ -54,10 +55,47 @@
         <kryo-serializers.version>0.26</kryo-serializers.version>
         <kryo.version>2.24.0</kryo.version>
         <tk-mybatis.version>3.4.4</tk-mybatis.version>
+        <zkclient.version>0.10</zkclient.version>
+        <alibaba-dubbo.version>2.6.0</alibaba-dubbo.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>sonatype-nexus-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <dependencyManagement>
+
         <dependencies>
+
+            <!--dubbo依赖-->
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${spring-boot-alibaba-dubbo.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${alibaba-dubbo.version}</version>
+            </dependency>
+
+            <!--zookeeper客户端依赖-->
+            <dependency>
+                <groupId>com.101tec</groupId>
+                <artifactId>zkclient</artifactId>
+                <version>${zkclient.version}</version>
+            </dependency>
+
             <!-- Alibaba Begin -->
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -190,5 +228,5 @@
             </plugin>
         </plugins>
     </build>
-    
+
 </project>
